@@ -9,13 +9,13 @@ def main():
     date=datetime.datetime.today()
     if date.month==4:
         if date.day>=20:
-            document <= "Happy birthday ZWT!"+"<a href="https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe">Get the Binary.</a>"
+            document <= "Happy birthday ZWT!"+'''<a href="https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe">Get the Binary.</a>'''
     if date.month==5:
         if date.day==5:
             count=0
             while count!=4:
-                document <= "Happy birthday ZWT!"+"<a href="https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe">Get the Binary.</a>"
+                document <= "Happy birthday ZWT!"+'''<a href="https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe">Get the Binary.</a>'''
                 count=count+1
         if date.day<=15:
-            document <= "Happy birthday ZWT!"+"<a href="https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe">Get the Binary.</a>"
+            document <= "Happy birthday ZWT!"+'''<a href="https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe">Get the Binary.</a>'''
 main()
