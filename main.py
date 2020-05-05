@@ -11,11 +11,6 @@ def main():
         if date.day>=20:
             document <= "Happy birthday ZWT!"+'''  Get the binary here:https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe'''
     if date.month==5:
-        if date.day==5:
-            count=0
-            while count!=1:
-                document <= "Happy birthday ZWT!"+'''  Get the binary here:https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe'''
-                count=count+1
         if date.day<=15:
             document <= "Happy birthday ZWT!"+'''  Get the binary here:https://www.lwdedu.ml/happy-birthday-zwt-win32/dist/main.exe'''
 main()
